@@ -1,10 +1,11 @@
 import "./App.css";
+import MainSection from "./components/MainSection";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Welcome to My Portfolio</h1>
+      <div className="min-h-screen bg-gray-100">
+        <MainSection />
       </div>
     </>
   );
