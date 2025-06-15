@@ -2,7 +2,7 @@ const MainSection = () => {
   return (
     <>
       {/* Header */}
-      <header className="bg-white shadow-sm my-2">
+      <header className="bg-[white] shadow-sm my-2">
         <div className="max-w-4xl mx-auto p-4 flex justify-between items-center">
           <h1 className="text-xl font-bold text-gray-800">
             {"<"}
