@@ -1,22 +1,37 @@
+import ProfileIcon from "../assets/svg/profile-icon.svg";
+
 const HeroSection = () => {
   return (
     <section className="bg-white">
       <div className="max-w-4xl mx-auto py-6 px-4 text-center">
         <img
           title="Shashank M M"
-          src="/api/placeholder/400/400"
+          src={ProfileIcon}
           alt="Profile"
           className="w-24 h-24 rounded-full mx-auto mb-4"
         />
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">
-          Full Stack Developer
+        <h2 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight drop-shadow-sm">
+          <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            Full Stack Developer
+          </span>
         </h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          <span className="font-medium text-primary no-underline hover:underline">
-            MERN Stack Developer
+          Turning complex ideas into{" "}
+          <span className="text-2xl font-bold text-blue-600">clean</span>,{" "}
+          <span className="text-2xl font-bold text-green-600">scalable</span>,
+          and{" "}
+          <span className="text-2xl font-bold text-purple-600">
+            user-friendly
           </span>{" "}
-          turning complex ideas into clean, scalable, and user-friendly web
-          applications.
+          web applications with{" "}
+          <span className="text-2xl font-bold text-red-400">
+            secure API development
+          </span>{" "}
+          and{" "}
+          <span className="text-2xl font-bold text-yellow-700">
+            seamless backend integration
+          </span>
+          .
         </p>
         <div className="mt-6 p-2">
           <a
