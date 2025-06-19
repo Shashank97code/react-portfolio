@@ -2,18 +2,25 @@ import linkedIn from "../assets/svg/linkedIn.svg";
 import github from "../assets/svg/github.svg";
 
 const MainSection = () => {
+  // Navigation items for the header section
   const navItems = [
-    { href: "#hero", label: "Home", title: "Go to Home" },
-    { href: "#about", label: "About", title: "Go to About" },
-    { href: "#projects", label: "Projects", title: "Go to Projects" },
-    { href: "#contact", label: "Contact", title: "Go to Contact" },
+    { href: "#hero", label: "Home", title: "Navigate to Home" },
+    { href: "#about", label: "About", title: "Navigate to About" },
+    { href: "#projects", label: "Projects", title: "Navigate to Projects" },
+    {
+      href: "#Experience",
+      label: "Experience",
+      title: "Navigate to Experience",
+    },
   ];
   return (
     <header className="bg-white shadow-sm my-2 sticky top-0 ">
       <div className="max-w-7xl mx-auto p-4 flex flex-row justify-between items-center">
         <h1 className="text-xl font-bold text-gray-800">
           {"<"}
-          <span className="px-2 text-blue-700">Shashank M M</span>
+          <span className="px-2 text-blue-700 font-semibold italic font-cursive">
+            Shashank M M
+          </span>
           {"/>"}
         </h1>
         <nav>

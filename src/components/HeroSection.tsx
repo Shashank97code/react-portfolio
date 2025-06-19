@@ -35,7 +35,7 @@ const HeroSection = () => {
         </p>
         <div className="mt-6 p-2">
           <a
-            title="Experience To Hire"
+            title="Connect with Shashank"
             href=""
             className="bg-blue-600 text-white px-6 py-2 m-2 rounded-md font-medium hover:bg-blue-700"
           >
