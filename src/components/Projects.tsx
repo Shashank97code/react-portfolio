@@ -5,8 +5,8 @@ import github from "../assets/svg/github.svg";
 import { useState } from "react";
 
 const Projects = () => {
-  const [siteType, setSiteType] = useState("personal");
-  setSiteType("personal");
+  const [siteType] = useState("personal");
+
   return (
     <section id="projects" className="bg-white py-8">
       <div className="max-w-6xl mx-auto px-4">
