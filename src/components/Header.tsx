@@ -7,6 +7,7 @@ const MainSection = () => {
     { href: "#hero", label: "Home", title: "Navigate to Home" },
     { href: "#about", label: "About", title: "Navigate to About" },
     { href: "#projects", label: "Projects", title: "Navigate to Projects" },
+    { href: "#blogs", label: "Blog", title: "Navigate to Blog" },
   ];
   return (
     <header className="bg-white shadow-sm my-2 sticky top-0 ">

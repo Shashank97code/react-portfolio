@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Blog from "./components/Blog";
 import { Footer } from "./components/Footer";
 import MainSection from "./components/Header";
 import HeroSection from "./components/HeroSection";
@@ -17,6 +18,8 @@ function App() {
       <About />
       {/* Project Section */}
       <Projects />
+      {/* Blog Section */}
+      <Blog />
       {/* Skills Section */}
       <Skills />
       {/* Footer Section */}
