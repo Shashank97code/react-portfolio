@@ -1,6 +1,7 @@
 import Project1Image from "../assets/react-gmap-ui-preview.png";
 import PortfolioImage from "../assets/portfolio-preview.png";
 import LogiSaas from "../assets/LogiSaas-preview.png";
+import DashboardAdminView from "../assets/student-enter-key.png";
 import github from "../assets/svg/github.svg";
 import { useState } from "react";
 
@@ -10,7 +11,7 @@ const Projects = () => {
   return (
     <section id="projects" className="bg-white py-8">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -181,6 +182,75 @@ const Projects = () => {
                 </span>
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
                   PostgreSQL
+                </span>
+              </div>
+            </div>
+          </div>
+          {/* Project 3 - */}
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+            <img
+              src={DashboardAdminView}
+              alt="Activation App Student Enter Code UI"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                <div className="flex justify-between items-center">
+                  <div>Activation App - Admin/Student Portal</div>
+                  {siteType === "company" ? (
+                    <div className="flex space-x-2">
+                      <a
+                        title="View Source Code on GitHub"
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm hover:color-blue-600 hover:bg-blue-200 p-0.5 rounded"
+                      >
+                        <img
+                          src={github}
+                          alt="github Logo"
+                          className="w-4 h-4"
+                        />
+                      </a>
+                      <a
+                        title="View Live Demo"
+                        href=""
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm hover:color-blue-600 hover:bg-blue-200 p-0.5 rounded"
+                      >
+                        🔗
+                      </a>
+                    </div>
+                  ) : (
+                    <div></div>
+                  )}
+                </div>
+              </h3>
+              <p className="text-gray-700 mb-3">
+                A web application for student activation and management. Admins
+                can generate activation codes, manage student accounts, and
+                monitor usage. Students use the portal to activate their
+                accounts and access resources.
+              </p>
+              <div className="flex gap-2 mb-3 overflow-x-auto">
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                  React
+                </span>
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                  NodeJS
+                </span>
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                  Express
+                </span>
+                <span className="bg-blue-100  text-blue-800 text-xs px-2 py-1 rounded">
+                  MaterialUI
+                </span>
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                  SQL
+                </span>
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                  AWS
                 </span>
               </div>
             </div>

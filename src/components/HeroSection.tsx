@@ -2,8 +2,8 @@ import ProfileIcon from "../assets/Shashank-profile.png";
 
 const HeroSection = () => {
   return (
-    <section className="bg-white">
-      <div className="max-w-4xl mx-auto py-6 px-4 text-center">
+    <section className="bg-white w-[500px] md:w-full lg:w-full xl:w-full 2xl:w-full">
+      <div className="max-w-4xl mx-auto py-6 px-2 text-center">
         <img
           title="Shashank M M"
           src={ProfileIcon}
