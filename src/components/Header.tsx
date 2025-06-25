@@ -10,7 +10,7 @@ const MainSection = () => {
     { href: "#blogs", label: "Blog", title: "Navigate to Blog" },
   ];
   return (
-    <header className="bg-white shadow-sm my-2 sticky top-0 ">
+    <header className="bg-white shadow-sm my-2 sticky top-0 z-10 ">
       <div className="max-w-7xl mx-auto p-4 flex flex-row justify-between items-center">
         <h1 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-pink-600 to-purple-600 flex items-center gap-2 drop-shadow-sm">
           <span className="text-gray-700 dark:text-gray-200 font-mono ">

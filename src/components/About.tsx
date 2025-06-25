@@ -1,16 +1,16 @@
 function About() {
   return (
     <section id="about" className="bg-gray-100 py-8">
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-5xl mx-auto px-1">
         <h2 className="text-3xl font-bold text-gray-900 mb-5 text-center">
           About Me
         </h2>
         <div className="bg-white p-6 rounded-lg shadow-md">
           <p className="text-gray-700 mb-4">
-            Hello! I'm Shashank, a passionate{" "}
-            <span className="font-medium">MERN Stack Developer</span> with 3
-            years of experience building responsive, scalable, and user-friendly
-            web applications. I specialize in{" "}
+            Hello! I'm <span className="font-medium">Shashank,</span> a
+            passionate <span className="font-medium">MERN Stack Developer</span>{" "}
+            with 3 + years of experience building responsive, scalable, and
+            user-friendly web applications. I specialize in{" "}
             <span className="font-medium">React.js</span>,{" "}
             <span className="font-medium">Node.js</span>,{" "}
             <span className="font-medium">MongoDB</span>, and

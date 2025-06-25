@@ -7,9 +7,9 @@ const Blog = () => {
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
           Blog
         </h2>
-        <div className="flex flex-col items-center space-y-8">
+        <div className="flex flex-col items-center space-y-8  ">
           {/* Blog Card */}
-          <article className="relative bg-white rounded-xl shadow-lg w-[50%] max-w-xl transition-transform hover:-translate-y-1 hover:shadow-2xl">
+          <article className="relative bg-white rounded-xl shadow-lg md:w-[50%] sm:w-[100%] max-w-xl transition-transform hover:-translate-y-1 hover:shadow-2xl">
             <div className="overflow-hidden rounded-t-xl">
               <img
                 src={NodeJsCrudMongoAppHome}
@@ -25,7 +25,6 @@ const Blog = () => {
                 <div className="flex items-center text-sm text-gray-500 space-x-2">
                   <span>By Shashank M M</span>
                   <span>•</span>
-                  <span>June 2024</span>
                 </div>
               </header>
               <p className="text-gray-700 mb-4">
