@@ -7,21 +7,20 @@ const MainSection = () => {
     { href: "#hero", label: "Home", title: "Navigate to Home" },
     { href: "#about", label: "About", title: "Navigate to About" },
     { href: "#projects", label: "Projects", title: "Navigate to Projects" },
-    {
-      href: "#Experience",
-      label: "Experience",
-      title: "Navigate to Experience",
-    },
   ];
   return (
     <header className="bg-white shadow-sm my-2 sticky top-0 ">
       <div className="max-w-7xl mx-auto p-4 flex flex-row justify-between items-center">
-        <h1 className="text-xl font-bold text-gray-800">
-          {"<"}
-          <span className="px-2 text-blue-700 font-semibold italic font-cursive">
+        <h1 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-pink-600 to-purple-600 flex items-center gap-2 drop-shadow-sm">
+          <span className="text-gray-700 dark:text-gray-200 font-mono ">
+            &lt;
+          </span>
+          <span className="italic font-cursive tracking-wide animate-pulse   pb-2 text-blue-800">
             Shashank M M
           </span>
-          {"/>"}
+          <span className="text-gray-700 dark:text-gray-200 font-mono ">
+            /&gt;
+          </span>
         </h1>
         <nav>
           <ul className="flex space-x-8">
