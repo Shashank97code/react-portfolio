@@ -1,4 +1,4 @@
-import ProfileIcon from "../assets/svg/profile-icon.svg";
+import ProfileIcon from "../assets/Shashank-profile.png";
 
 const HeroSection = () => {
   return (
@@ -34,13 +34,6 @@ const HeroSection = () => {
           .
         </p>
         <div className="mt-6 p-2">
-          <a
-            title="Connect with Shashank"
-            href=""
-            className="bg-blue-600 text-white px-6 py-2 m-2 rounded-md font-medium hover:bg-blue-700"
-          >
-            Get in touch
-          </a>
           <a
             title="Download Resume"
             target="_blank"
