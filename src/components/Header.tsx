@@ -36,6 +36,13 @@ const MainSection = () => {
                       ? "text-blue-700 underline underline-offset-8 decoration-blue-600"
                       : ""
                   }`}
+                  onClick={(e) => {
+                    if (item.href === "#hero") {
+                      e.preventDefault();
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                      window.location.hash = "#hero";
+                    }
+                  }}
                 >
                   {item.label}
                 </a>

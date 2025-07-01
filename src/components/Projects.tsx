@@ -1,4 +1,4 @@
-import Project1Image from "../assets/react-gmap-ui-preview.png";
+import Project1Image from "../assets/react-gmap-ui-preview-with-vehicle-marker.png";
 import PortfolioImage from "../assets/portfolio-preview.png";
 import LogiSaas from "../assets/LogiSaas-preview.png";
 import DashboardAdminView from "../assets/student-enter-key.png";
@@ -16,11 +16,11 @@ const Projects = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Project 1  */}
-          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300">
             <img
               src={Project1Image}
               alt="React + Google Map UI"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2">
@@ -50,7 +50,7 @@ const Projects = () => {
               </h3>
               <p className="text-gray-700 mb-3">
                 Tailwind-styled Google Map integrated with React, featuring
-                interactive markers.
+                interactive vehicle markers and info windows.
               </p>
               <div className="flex flex-wrap gap-2 mb-3">
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded inline-block w-auto min-w-[60px] text-center">
@@ -69,11 +69,11 @@ const Projects = () => {
             </div>
           </div>
           {/* Project 2 */}
-          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300">
             <img
               src={PortfolioImage}
               alt="Portfolio Website"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
@@ -89,15 +89,17 @@ const Projects = () => {
                     >
                       <img src={github} alt="github Logo" className="w-4 h-4" />
                     </a>
-                    <a
-                      title="View Live Demo"
-                      href="https://shashank-devfolio.netlify.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm hover:color-blue-600 hover:bg-blue-200  p-0.5 rounded "
-                    >
-                      🔗
-                    </a>
+                    {siteType === "personal" ? (
+                      <a
+                        title="Currently Viewing"
+                        href="#"
+                        className="text-sm text-gray-400 cursor-not-allowed p-0.5 rounded"
+                        tabIndex={-1}
+                        aria-disabled="true"
+                      >
+                        👁️
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </h3>
@@ -119,11 +121,11 @@ const Projects = () => {
             </div>
           </div>
           {/* Project 3 - */}
-          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300">
             <img
               src={LogiSaas}
               alt="Portfolio Website"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
@@ -187,11 +189,11 @@ const Projects = () => {
             </div>
           </div>
           {/* Project 3 - */}
-          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl">
             <img
               src={DashboardAdminView}
               alt="Activation App Student Enter Code UI"
-              className="w-full h-48 object-cover"
+              className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">

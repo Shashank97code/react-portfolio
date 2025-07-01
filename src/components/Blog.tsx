@@ -24,7 +24,6 @@ const Blog = () => {
                 </h3>
                 <div className="flex items-center text-sm text-gray-500 space-x-2">
                   <span>By Shashank M M</span>
-                  <span>•</span>
                 </div>
               </header>
               <p className="text-gray-700 mb-4">
