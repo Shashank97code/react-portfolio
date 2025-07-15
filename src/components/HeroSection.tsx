@@ -37,7 +37,7 @@ const HeroSection = () => {
           <a
             title="Download Resume"
             target="_blank"
-            href="https://shashank-resume.s3.ap-south-1.amazonaws.com/Shashank-M-M-Resume-Full-Stack.pdf"
+            href="https://shashank-resume.s3.ap-south-1.amazonaws.com/Resume-Shashank-M-M.pdf"
             className="bg-blue-600 text-white px-6 py-2 m-2 rounded-md font-medium hover:bg-blue-700"
           >
             Download Resume

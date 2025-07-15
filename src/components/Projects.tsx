@@ -17,7 +17,7 @@ const Projects = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Project 1 : ToDo */}
-          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300">
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 hover:border-blue-600 border-2">
             <img
               src={TodoAppPreview}
               alt="React + Google Map UI"
@@ -68,7 +68,7 @@ const Projects = () => {
             </div>
           </div>
           {/* Project 2  : portfolio*/}
-          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300">
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 hover:border-blue-600 border-2">
             <img
               src={PortfolioImage}
               alt="Portfolio Website"
@@ -108,7 +108,7 @@ const Projects = () => {
               </p>
               <div className="flex space-x-2">
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
-                  React
+                  React (JSX + TSX)
                 </span>
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
                   Tailwind
@@ -120,7 +120,7 @@ const Projects = () => {
             </div>
           </div>
           {/* Project 3  : react-maps*/}
-          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300">
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 hover:border-blue-600 border-2">
             <img
               src={Project1Image}
               alt="React + Google Map UI"
@@ -173,7 +173,7 @@ const Projects = () => {
             </div>
           </div>
           {/* Project 4 - LogiSaas*/}
-          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300">
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 hover:border-blue-600 border-2">
             <img
               src={LogiSaas}
               alt="Portfolio Website"
@@ -213,35 +213,35 @@ const Projects = () => {
                   )}
                 </div>
               </h3>
-              <p className="text-gray-700 mb-3">
+              <p className="text-gray-700 mb-3 overflow-y-auto h-[12vh]">
                 A logistics SaaS product enabling users to create, start, track,
                 and end trips, as well as raise expenses. Includes interactive
                 charts for visualizing trip and expense data.
               </p>
-              <div className="flex  gap-2 mb-3 overflow-x-auto">
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
-                  React
+              <div className="flex flex-wrap gap-2 mb-3 overflow-x-auto">
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded min-w-[50px] text-center">
+                  React (JSX + TSX)
                 </span>
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded min-w-[50px] text-center">
                   Tailwind
                 </span>
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded min-w-[50px] text-center">
                   NodeJS
                 </span>
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded min-w-[50px] text-center">
                   PostgreSQL
                 </span>
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded min-w-[50px] text-center">
                   AWS
                 </span>
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded min-w-[50px] text-center">
                   PostgreSQL
                 </span>
               </div>
             </div>
           </div>
           {/* Project 5 - Vb KHSS-KHXR */}
-          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl">
+          <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 hover:border-blue-600 border-2">
             <img
               src={DashboardAdminView}
               alt="Activation App Student Enter Code UI"
@@ -281,24 +281,24 @@ const Projects = () => {
                   )}
                 </div>
               </h3>
-              <p className="text-gray-700 mb-3">
+              <p className="text-gray-700 mb-3 overflow-y-auto h-[12vh]">
                 A web application for student activation and management. Admins
                 can generate activation codes, manage student accounts, and
                 monitor usage. Students use the portal to activate their
                 accounts and access resources.
               </p>
-              <div className="flex gap-2 mb-3 overflow-x-auto">
+              <div className="flex flex-wrap gap-2 mb-3 overflow-x-auto">
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
                   React
                 </span>
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded ">
                   NodeJS
                 </span>
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded ">
                   Express
                 </span>
-                <span className="bg-blue-100  text-blue-800 text-xs px-2 py-1 rounded">
-                  MaterialUI
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
+                  Material UI
                 </span>
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">
                   SQL
